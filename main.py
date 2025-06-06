@@ -6,9 +6,9 @@ import re
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-places = pd.read_csv("D://CODING-CAMP CAPSTONE//Model Content Base//content base//model//places.csv")
-vectorizer = joblib.load("D://CODING-CAMP CAPSTONE//Model Content Base//content base//model//vectorizer.pkl")
-tfidf_matrix = joblib.load("D://CODING-CAMP CAPSTONE//Model Content Base//content base//model//tfidf_matrix.pkl")
+places = pd.read_csv("./model/places.csv")
+vectorizer = joblib.load("./model/vectorizer.pkl")
+tfidf_matrix = joblib.load("./model/tfidf_matrix.pkl")
 
 app = FastAPI()
 
