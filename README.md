@@ -9,12 +9,3 @@ SakaLoka ML provides personalized recommendations for cultural events and destin
 * **Content-Based Filtering**
 * **Collaborative Filtering**
 
-## Structure
-
-```text
-model/          # ML models
-rating_based/   # Rating-based recommendation
-event.csv       # Event dataset
-model.py        # Recommendation model
-main.py         # ML API
-```
